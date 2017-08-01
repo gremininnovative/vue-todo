@@ -1,0 +1,76 @@
+html,
+#app {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.todo-list {
+    height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.list-header h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+.todo-editor {
+    height: 90%;
+}
+
+.todo-editor textarea {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+    background-color: #fff;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    padding: 25px 12px;
+    width: 100%;
+    resize: none;
+}
+
+.todos_completed {
+    background: #f6feff none repeat scroll 0 0;
+    color: #09a;
+    text-decoration: line-through;
+}
+
+.todo i {
+    font-size: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+.todo i:hover {
+    opacity: 1;
+}
+
+.starred {
+    color: #F7AE4F;
+}
+
+.clr20 {
+    height: 20px;
+    clear: both;
+}
